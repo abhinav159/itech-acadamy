@@ -1,6 +1,6 @@
 {% include "base.html" %}
-{%load static%}
-
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
 <form method="post">
   {% csrf_token %}
 <div class="wrapper">

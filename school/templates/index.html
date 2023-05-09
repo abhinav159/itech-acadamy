@@ -8,8 +8,8 @@
     </div>
 
     <div class="form-container" >
-      <h1 class="hlp" style="margin-left: 70px; width: 100%;font-weight: 700;">Sign Up Now</h1>
-      <form method="post" style="margin-top: 50px;">
+      <h1 class="hlp">Sign Up Now</h1>
+      <form method="post" style="margin-top: 30px;">
           {% csrf_token %}
             
             
@@ -35,27 +35,6 @@
 
   </div>
 </div> 
-
-
-<!-- <script>
-  const popup = document.querySelector('.popup');
-  const close = document.querySelector('.close');
-
-  // Check if the popup has been displayed before
-  if (!localStorage.getItem('popupDisplayed')) {
-    // Show the popup
-    setTimeout(function() {
-      popup.style.display = "block";
-      // Set a flag to indicate that the popup has been displayed
-      localStorage.setItem('popupDisplayed', true);
-    }, 3000);
-  }
-
-  close.addEventListener('click', () => {
-    popup.style.display = "none";
-  });
-</script> -->
-
 
   <script>
 
